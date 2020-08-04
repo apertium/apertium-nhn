@@ -14,6 +14,10 @@ LEXICON Root
 
 Nouns ;
 
+LEXICON N-TLI
+
+%<n%>%<abs%>:%>tli # ;
+
 LEXICON N-TL 
 
 %<n%>%<abs%>:%>tl # ;
@@ -24,7 +28,7 @@ LEXICON N-TL
 
 LEXICON Nouns
 
-itl:i N-TL ;  ! "agua"
-tipoztl:tipoz N-TL ; ! "hombre"
+etl:e N-TL ;  ! "agua"
+tipoztli:tipoz N-TLI ; ! "hombre"
 
 
