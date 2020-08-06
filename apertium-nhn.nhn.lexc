@@ -4,6 +4,8 @@ Multichar_Symbols
 
 %<abs%>  ! Plural
 
+%<px1sg%>
+
 %>      ! Morpheme boundary
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -12,15 +14,23 @@ Multichar_Symbols
 
 LEXICON Root
 
-Nouns ;
+Possession ; 
+
+LEXICON Possession 
+
+%<px3sg%>:i%> Nouns ; 
+
+Nouns ; 
 
 LEXICON N-TLI
 
 %<n%>%<abs%>:%>tli # ;
+%<n%>: # ; 
 
 LEXICON N-TL 
 
 %<n%>%<abs%>:%>tl # ;
+%<n%>: # ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !                            L E X I C O N                                  !
@@ -28,7 +38,7 @@ LEXICON N-TL
 
 LEXICON Nouns
 
-etl:e N-TL ;  ! "agua"
+etl:e N-TL ;  ! "frijol"
 tipoztli:tipoz N-TLI ; ! "hombre"
 
 
